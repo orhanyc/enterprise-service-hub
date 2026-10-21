@@ -1,0 +1,11 @@
+[project]
+name = "enterprise-service-hub"
+version = "0.1.0"
+description = "A compact enterprise service request and SLA workflow API"
+requires-python = ">=3.11"
+dependencies = ["fastapi>=0.115", "pydantic>=2.8", "uvicorn>=0.30"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
